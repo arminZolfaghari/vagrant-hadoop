@@ -58,6 +58,12 @@ if you are using docker your webUI address will be changed because in docker ver
     vagrant ssh hadoop-master
     vagrant ssh hadoop-worker1
     ```
+    
+  In windows before vagrant ssh, run this command in terminal:
+  ```bash
+    set VAGRANT_PREFER_SYSTEM_BIN=0
+  ```
+  
 
 ### Some Useful Hadoop commands (in master or worker vm's):
 + ls in hdfs
